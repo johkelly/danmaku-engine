@@ -5,7 +5,8 @@
  *      Author: Jack
  */
 
-#include <wx/wx.h>
+#include <wx/setup.h>
+#include <wx/app.h>
 #include "DanmakuFrame.h"
 #include <cstdio>
 

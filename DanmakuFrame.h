@@ -5,7 +5,8 @@
  *      Author: Jack
  */
 
-#include <wx/wx.h>
+#include <wx/frame.h>
+#include <wx/wxhtml.h>
 
 #ifndef DANMAKUMAIN_H_
 #define DANMAKUMAIN_H_
@@ -13,6 +14,8 @@
 class DanmakuFrame : public wxFrame{
 public:
 	DanmakuFrame(const wxString& title);
+private:
+	wxHtmlWindow* htmlPanel;
 };
 
 
